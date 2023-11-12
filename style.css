@@ -1,0 +1,72 @@
+/**PAGE STRUCTURE**/
+body {
+  background-image: url("./background_image.png");
+  background-size: auto;
+}
+
+a {
+  color: #222222;
+  font-weight: bold;
+  text-decoration: none;
+  -moz-transition-duration: 1s;
+  -webkit-transition-duration: 1s; }
+
+a:hover, .icon:hover {
+  color: #888888;
+  -moz-transition-duration: .5s;
+  -webkit-transition-duration: .5s; }
+
+::selection {
+  background-color: #888888;
+  color: #FFFFFF; }
+
+.menu:hover {
+  cursor: pointer; }
+
+h1 {
+  color: #666666;
+  font-family: "Nunito Sans", sans-serif !important;
+  font-size: 30px !important;
+  position: relative;
+  top: 10px; }
+
+/**CONTENT**/
+/*CENTERING*/
+.jumbotron.vertical-center {
+  margin-bottom: 0; }
+
+.vertical-center {
+  min-height: 100%;
+  min-height: 100vh;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -moz-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  width: 100%;
+  -webkit-box-pack: center;
+  -moz-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center; }
+
+#container {
+  width: 700px;
+  height: 300px;
+  max-width: 1000px;
+  max-height: 1000px; }
+
+.icon {
+  color: #666666; }
+
+.tab, .item, .ui.segment {
+  color: #666666;
+  font-family: "Nunito Sans", sans-serif;
+  font-size: 16px; }
+
+/*# sourceMappingURL=style.css.map */
